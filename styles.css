@@ -1,0 +1,53 @@
+/* styles.css */
+
+.main {
+    background-color: aqua;
+}
+
+.list {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.first {
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+.second {
+    color: green;
+    font-size: smaller;
+    font-weight: bolder;
+}
+
+.third {
+    color: fuchsia;
+    font-size: xx-small;
+    font-weight: lighter;
+}
+
+.image {
+    width: 200px;
+    height:auto;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+}
+
+#unique {
+    background-color: lightgreen;
+}
