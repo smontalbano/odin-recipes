@@ -1,53 +1,100 @@
 /* styles.css */
 
 .main {
-    background-color: aqua;
+    border: solid black;
+    background-color: rgb(188, 209, 209);
 }
 
-.list {
-    background-color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.title {
+    font-size: 52px;
+    text-align: center;
 }
 
-.first {
-    color: red;
-    font-size: large;
-    font-weight: bold;
+.link-list-container .link-list .list-item {
+    font-size: 32px;
 }
 
-.second {
-    color: green;
-    font-size: smaller;
-    font-weight: bolder;
+.link-list-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+    text-align: left;
 }
 
-.third {
-    color: fuchsia;
-    font-size: xx-small;
-    font-weight: lighter;
+.title-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.image-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
 }
 
 .image {
-    width: 200px;
-    height:auto;
+    width: 400px;
+    height: auto;
 }
 
-h2 {
-    font-size: 40px;
+.minor-title-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
 }
 
-h1 {
-    font-size: 60px;
+.minor-title {
+    text-align: center;
+    font-size: 42px;
 }
 
-h4 {
-    font-size: 30px;
+.list-container .ordered-list {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 8px;
 }
 
-p {
-    font-size: 20px;
+.list-container .list-item {
+    font-size: 18px;
 }
 
-#unique {
-    background-color: lightgreen;
+.list-container .unordered-list {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.smallest-title-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.smallest-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.paragraph-container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.paragraph {
+    font-size: 18px;
+    text-align: center;
+}
+
+.link-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.link {
+    display: block;
+    font-size: 16px;
+    text-align: center;
 }
